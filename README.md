@@ -74,27 +74,30 @@ Acesse: http://127.0.0.1:8000/admin/
 
 🌐 Endpoints da API
 
-Estudantes
-
-GET /api/v1/estudantes/ → lista estudantes
-
-POST /api/v1/estudantes/ → cria estudante
-
 Cursos
 
-GET /api/v1/cursos/ → lista cursos
-
-POST /api/v1/cursos/ → cria curso
-
-Matrículas
-
-GET /api/v1/matriculas/ → lista matrículas
-
-POST /api/v1/matriculas/ → cria matrícula
+ GET /api/v1/curso/ → lista cursos
+ POST /api/v1/curso/ → cria curso
 
 Disciplinas
 
-GET /api/v1/disciplinas/ → lista disciplinas
+ GET /api/v1/disciplina/ → lista disciplinas
+ POST /api/v1/disciplina/ → cria disciplina
 
-POST /api/v1/disciplinas/ → cria disciplina
+Estudantes
+
+ GET /api/v1/estudante/ → lista estudantes
+ POST /api/v1/estudante/ → cria estudante
+
+Inscrição em Disciplinas
+
+ GET /api/v1/inscricao/ → lista inscrições em Disciplina
+ POST /api/v1/inscricao/ → cria inscrição em Disciplina
+
+Matrículas
+
+ GET /api/v1/matricula/ → lista matrículas
+ POST /api/v1/matricula/ → cria matrícula
+
+
 
